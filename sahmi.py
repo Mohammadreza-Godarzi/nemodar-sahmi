@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-a = int(input("zarib \"x²\" ra vared konid =>"))
-b = int(input("zarib \"x\" ra vared konid =>"))
-c = int(input("zarib \"c\" ra vared konid =>"))
+a = int(input("meghdar \"x²\" ra vared konid =>"))
+b = int(input("meghdar \"x\" ra vared konid =>"))
+c = int(input("meghdar \"c\" ra vared konid =>"))
 
 moadele = f"y = ({a})x² + ({b})x + ({c})"
 
