@@ -36,8 +36,6 @@ elif delta < 0 :
     x = np.linspace(-50, 50, 400)
     y = daraje(x)
 
-
-
 plt.plot(x, y, label=f'y = {a}x² + {b}x + {c}')
 plt.axhline(0, color='black', linewidth=0.8, linestyle='--')
 plt.axvline(0, color='black', linewidth=0.8, linestyle='--')
