@@ -1,1 +1,1 @@
-please install numpy and matplotlib before run the code!!!
+please install ,numpy , matplotlib before run the code!!!
