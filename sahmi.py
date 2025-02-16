@@ -15,9 +15,9 @@ delta = b**2 - 4*a*c
 if delta > 0 :
     sqrt_delta = np.sqrt(delta)
     x_1 = ((-1*b) + sqrt_delta ) / (2*a)
-    print(x_1)
+    print(f"X_1 : {x_1}")
     x_2 = ((-1*b) - sqrt_delta ) / (2*a)
-    print(x_2)
+    print(f'x_2 : {x_2}')
 
     x = np.linspace(-50, 50, 400)
     y = a*x**2 + b*x + c
@@ -29,6 +29,7 @@ elif delta == 0:
     y = a*x**2 + b*x + c
 
 elif delta < 0 :
+    print("moadele rishe haghigi nadarad.")
     def daraje(x):
         return a * x**2 + b*x + c
 
